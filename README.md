@@ -1,11 +1,11 @@
-# ragret_jd141
+# hybrid_retrieval_weights_ratio_calc
 
 **算出RAG 检索工程师·混合检索的权重调节里各项的占比与比值。**
 
-`ragret_jd141` —— 从输入中抽取数值，计算RAG 检索工程师·混合检索的权重调节相关的比值与占比，分母为零时明确报错
+`hybrid_retrieval_weights_ratio_calc` —— 从输入中抽取数值，计算RAG 检索工程师·混合检索的权重调节相关的比值与占比，分母为零时明确报错
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`ragret_jd141.py` 拷走就能用
+- 单文件，`hybrid_retrieval_weights_ratio_calc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install robinlab12-ragret_jd141
+pip install robinlab12-hybrid_retrieval_weights_ratio_calc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-ragret_jd141 --help
+hybrid_retrieval_weights_ratio_calc --help
 ```
 
-也可以不用安装，直接把 `ragret_jd141.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `hybrid_retrieval_weights_ratio_calc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ ragret_jd141 --help
 ## 用法
 
 ```bash
-python ragret_jd141.py --file input.txt
-python ragret_jd141.py --text "示例内容"
-python ragret_jd141.py --file input.txt --json
+python hybrid_retrieval_weights_ratio_calc.py --file input.txt
+python hybrid_retrieval_weights_ratio_calc.py --text "示例内容"
+python hybrid_retrieval_weights_ratio_calc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python ragret_jd141.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_ragret_jd141.py
+python test_hybrid_retrieval_weights_ratio_calc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_ragret_jd141.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/robinlab12/ragret_jd141>
+- GitHub 仓库：<https://github.com/robinlab12/hybrid_retrieval_weights_ratio_calc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_ragret_jd141.py
 robinlab12 做RAG 检索工程师·混合检索的权重调节相关的问题，方向对标京东的资深RAG 检索工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://robinlab12.github.io>
-- 仓库：<https://github.com/robinlab12/ragret_jd141>
+- 仓库：<https://github.com/robinlab12/hybrid_retrieval_weights_ratio_calc>
 
 ## 许可
 
